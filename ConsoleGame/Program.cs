@@ -10,7 +10,7 @@ namespace ConsoleGame
         {
             string letters = "abcdefghijklmnopqrstuvwxyz";
             int allowedWrongGuesses = 7;
-            string wordListLocation = "ADDLOCATION\\assets\\words.txt"; // NEED TO CHANGE THIS LOCATTION TO THE APPROPRIATE PATH
+            string wordListLocation = (@"/Users/elijahbeach/Documents/elevenfifty/SD 125 Immersion/Challenges/ConsoleGame/words.txt");
 
             Console.Clear();
             Hangman game = new Hangman();
